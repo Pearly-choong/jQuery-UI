@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+  color: pink;
+}
+
+.myClass {
+  background: cyan;
+  color: white;
+}
+
+
+.container {
+  width: 500px;
+  height: 500px;
+  background: black;
+  margin: 200px auto;
+}
+
+
+#resizable {
+  width: 150px;
+  height: 150px; padding: 0.5em;
+}
+
+
+#resizable h3 {
+   text-align: center; margin: 0;
+ }
+
+#feedback {
+  font-size: 1.4em;
+}
+
+#selectable .ui-selecting {
+   background: #FECA40;
+ }
+
+#selectable .ui-selected {
+    background: #F39814; color: white;
+}
+
+#selectable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+}
+
+#selectable li {
+    margin: 5px;
+    padding: 1.2em;
+    font-size: 1.2em;
+    height: 18px;
+}
+
+
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+}
+
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 1.2em;
+  padding-left: 1.5em;
+  font-size: 1.2em;
+  height: 18px;
+}
+
+#sortable li span {
+   position: absolute;
+   margin-left: -1.3em;
+ }
+
+.switch1{
+  width: 150px;
+  height: 250px;
+}
+
+.switch{
+  width: 80px;
+  height: 50px;
+}
